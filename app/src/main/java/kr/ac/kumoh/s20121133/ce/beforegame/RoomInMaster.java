@@ -59,7 +59,7 @@ public class RoomInMaster extends AppCompatActivity {
         String password = intent.getExtras().getString("createPwd");
         String radius = intent.getExtras().getString("createRadius");
 
-        RoomList.Socket.emit("room_Master", title, password, radius);
-        RoomList.Socket.on("room_Master", roomMaster);
+        RoomList.mSocket.emit("room_Master", title, password, radius);
+        RoomList.mSocket.on("room_Master", roomMaster);
     }
 }

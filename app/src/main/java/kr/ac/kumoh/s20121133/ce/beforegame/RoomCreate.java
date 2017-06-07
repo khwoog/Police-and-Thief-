@@ -90,6 +90,7 @@ public class RoomCreate extends AppCompatActivity{
             public boolean onKey(View v, int keyCode, KeyEvent event) {
                 //Enter key Action
                 if ((event.getAction() == KeyEvent.ACTION_DOWN) && (keyCode == KeyEvent.KEYCODE_ENTER)) {
+                    hideKeyboard();
                     return true;
                 }
                 return false;
@@ -100,6 +101,7 @@ public class RoomCreate extends AppCompatActivity{
             public boolean onKey(View v, int keyCode, KeyEvent event) {
                 //Enter key Action
                 if ((event.getAction() == KeyEvent.ACTION_DOWN) && (keyCode == KeyEvent.KEYCODE_ENTER)) {
+                    hideKeyboard();
                     return true;
                 }
                 return false;
