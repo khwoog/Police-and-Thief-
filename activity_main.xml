@@ -244,16 +244,12 @@
                 android:layout_width="130dp"
                 android:layout_height="75dp"
                 android:layout_margin="5dp"
-                android:textSize="35sp"
-                android:text="경찰"
                 android:background="@drawable/button_police"/>
             <Button
                 android:id="@+id/thiefBtn"
                 android:layout_width="130dp"
                 android:layout_height="75dp"
                 android:layout_margin="5dp"
-                android:textSize="35sp"
-                android:text="도둑"
                 android:background="@drawable/button_thief"/>
         </LinearLayout>
         <LinearLayout
@@ -262,13 +258,11 @@
             android:gravity="center"
             android:layout_gravity="center">
             <Button
-                android:id="@+id/playBtn"
+                android:id="@+id/readyBtn"
                 android:layout_width="270dp"
                 android:layout_height="39dp"
                 android:layout_margin="5dp"
-                android:textSize="25sp"
-                android:text="R E A D Y"
-                android:background="@drawable/button_play"/>
+                android:background="@drawable/button_ready"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
