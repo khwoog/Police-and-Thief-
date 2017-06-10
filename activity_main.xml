@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#1c313a">
+    android:background="@drawable/back">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="46dp"
@@ -63,7 +63,7 @@
                         android:layout_height="85dp"
                         android:text="User1"
                         android:layout_margin="5dp"
-                        android:textColor="#ffffff"
+                        android:textColor="#000000"
                         android:background="@drawable/edge_thief_master"/>
 
                 </LinearLayout>
@@ -77,7 +77,7 @@
                         android:layout_height="85dp"
                         android:text="User2"
                         android:layout_margin="5dp"
-                        android:textColor="#ffffff"
+                        android:textColor="#000000"
                         android:background="@drawable/edge_thief"/>
                 </LinearLayout>
                 <LinearLayout
@@ -90,7 +90,7 @@
                         android:layout_height="85dp"
                         android:text="User3"
                         android:layout_margin="5dp"
-                        android:textColor="#ffffff"
+                        android:textColor="#000000"
                         android:background="@drawable/edge_thief_ready"/>
                 </LinearLayout>
             </LinearLayout>
@@ -110,7 +110,7 @@
                     android:layout_height="85dp"
                     android:text="User4"
                     android:layout_margin="5dp"
-                    android:textColor="#ffffff"
+                    android:textColor="#000000"
                     android:background="@drawable/edge_thief"/>
             </LinearLayout>
             <LinearLayout
@@ -123,7 +123,7 @@
                     android:layout_height="85dp"
                     android:text="User5"
                     android:layout_margin="5dp"
-                    android:textColor="#ffffff"
+                    android:textColor="#000000"
                     android:background="@drawable/edge_police_ready"/>
             </LinearLayout>
             <LinearLayout
@@ -136,7 +136,7 @@
                     android:layout_height="85dp"
                     android:text="User6"
                     android:layout_margin="5dp"
-                    android:textColor="#ffffff"
+                    android:textColor="#000000"
                     android:background="@drawable/edge_police"/>
             </LinearLayout>
         </LinearLayout>
@@ -156,7 +156,7 @@
                     android:layout_height="85dp"
                     android:text="User7"
                     android:layout_margin="5dp"
-                    android:textColor="#ffffff"
+                    android:textColor="#000000"
                     android:background="@drawable/edge_police"/>
             </LinearLayout>
             <LinearLayout
@@ -169,7 +169,7 @@
                     android:layout_height="85dp"
                     android:text="User8"
                     android:layout_margin="5dp"
-                    android:textColor="#ffffff"
+                    android:textColor="#000000"
                     android:background="@drawable/edge_police"/>
             </LinearLayout>
             <LinearLayout
@@ -182,7 +182,7 @@
                     android:layout_height="85dp"
                     android:text="User9"
                     android:layout_margin="5dp"
-                    android:textColor="#ffffff"
+                    android:textColor="#000000"
                     android:background="@drawable/edge_police_ready"/>
             </LinearLayout>
         </LinearLayout>
@@ -202,7 +202,7 @@
                     android:layout_height="85dp"
                     android:text="User10"
                     android:layout_margin="5dp"
-                    android:textColor="#ffffff"
+                    android:textColor="#000000"
                     android:background="@drawable/edge_default"/>
             </LinearLayout>
             <LinearLayout
@@ -215,7 +215,7 @@
                     android:layout_height="85dp"
                     android:text="User11"
                     android:layout_margin="5dp"
-                    android:textColor="#ffffff"
+                    android:textColor="#000000"
                     android:background="@drawable/edge_default"/>
             </LinearLayout>
             <LinearLayout
@@ -228,7 +228,7 @@
                     android:layout_height="85dp"
                     android:text="User12"
                     android:layout_margin="5dp"
-                    android:textColor="#ffffff"
+                    android:textColor="#000000"
                     android:background="@drawable/edge_default"/>
             </LinearLayout>
         </LinearLayout>
