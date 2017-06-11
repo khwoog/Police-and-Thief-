@@ -1,0 +1,42 @@
+package kr.ac.kumoh.ce.s20120420.daummap;
+
+import android.location.Location;
+
+import java.io.Serializable;
+
+/**
+ * Created by woong on 2017-06-06.
+ */
+public class Data_ingame implements Serializable {
+    int thief_item_num;
+    int police_item_num;
+    int zone_num;
+    int range;
+
+
+    public int getThief_item_num() {
+        return thief_item_num;
+    }
+
+
+
+    public int getPolice_item_num() {
+        return police_item_num;
+    }
+
+    public int getZone_num() {
+        return zone_num;
+    }
+
+    public int getRange() {
+        return range;
+    }
+
+    public Data_ingame(int thief_item_num, int police_item_num, int zone_num, int range) {
+        this.thief_item_num = thief_item_num;
+        this.police_item_num = police_item_num;
+        this.zone_num = zone_num;
+        this.range = range;
+
+    }
+}
