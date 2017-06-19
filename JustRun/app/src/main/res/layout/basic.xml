@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_weight="6">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FF0000"
+        android:id="@+id/time_tv"
+        android:layout_gravity="center"/>
+    <ProgressBar
+        android:id="@+id/pgbar"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:indeterminate="false"
+        android:progress="75"
+        android:max="100"
+        android:secondaryProgress="100"
+        android:progressDrawable="@drawable/circular"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:visibility="invisible"
+        android:useLevel="true"/>
+
+</LinearLayout>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_weight="1.00">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/death_ll1"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="10dp"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:id="@+id/button1"/>
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:textSize="50sp"
+            android:id="@+id/button2"
+
+            android:text=""/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:id="@+id/death_ll2"
+        android:layout_marginBottom="10dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/death_iv"
+          >
+
+        </ImageView>
+    </LinearLayout>
+
+</FrameLayout>
+
+
+
+
+</LinearLayout>

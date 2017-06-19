@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.ac.kumoh.ce.s20120420.JustRun">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name="kr.ac.kumoh.ce.s20120420.JustRun.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="kr.ac.kumoh.ce.s20120420.JustRun.InGameReady"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="kr.ac.kumoh.ce.s20120420.JustRun.Randomac"
+            android:screenOrientation="portrait"   ></activity>
+        <activity android:name="kr.ac.kumoh.ce.s20120420.JustRun.RoomList"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="kr.ac.kumoh.ce.s20120420.JustRun.RoomCreate"
+            android:theme="@style/Theme.AppCompat.Dialog"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="kr.ac.kumoh.ce.s20120420.JustRun.RoomIn"
+            android:screenOrientation="portrait"
+            >
+
+
+        </activity>
+        <activity android:name="kr.ac.kumoh.ce.s20120420.JustRun.Thief"
+            android:screenOrientation="portrait"   ></activity>
+        <activity android:name="kr.ac.kumoh.ce.s20120420.JustRun.Police"
+            android:screenOrientation="portrait"  ></activity>
+
+
+        <activity android:name=".ExplainActivity"
+            android:label="도움말"
+            android:theme="@style/dialog"
+            ></activity>
+    </application>
+
+</manifest>

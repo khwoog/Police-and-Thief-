@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="kr.ac.kumoh.ce.s20120420.JustRun.MainActivity"
+    android:layout_marginTop="16dp"
+    android:background="@drawable/back_cover"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/roomNum"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/numback"
+        android:text="1"
+        />
+    <TextView
+        android:id="@+id/roomTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#3d5687"
+        android:layout_weight="5"
+        android:layout_margin="10dp"
+        android:text="방제목의 예입니다."
+        />
+    <TextView
+        android:id="@+id/roomTotal"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:layout_margin="8dp"
+        android:text="1 / 12 "
+        />
+
+</LinearLayout>
